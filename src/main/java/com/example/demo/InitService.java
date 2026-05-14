@@ -25,8 +25,10 @@ public class InitService {
                 .thenMany(studentRepo.findAll())
                 .subscribe(System.out::println);
 
-        studentRepo.save(
-                new Student("Przemek")
-        ).subscribe();
+        studentRepo
+                .save(
+                        new Student("Przemek")
+                )
+                .subscribe();
     }
 }
