@@ -59,3 +59,7 @@ src/main/java/com/example/demo/
 ## License
 
 MIT
+
+## Credits
+
+This project is based on the tutorial: [Spring WebFlux - programowanie reaktywne w Spring](https://bykowski.pl/spring-webflux-programowanie-reaktywne-w-spring/)
